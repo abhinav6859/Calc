@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #43cea2, #185a9d);
+    background: linear-gradient(to right, #584ad2, #ea2d78);
     color: #fff;
     font-family: Arial, sans-serif;
     display: flex;
@@ -18,13 +18,13 @@ body {
     width: 100%;
     color: #333;
     margin: 20px 0;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
 }
 
 .calculator:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
+     box-shadow: 0 10px 20px rgba(10, 10, 0, 0.3); 
 }
-
 .calculator h2 {
     text-align: center;
     color: #185a9d;
@@ -58,7 +58,7 @@ body {
 }
 
 .calculator button:hover {
-    background-color: #3bb592;
+    background-color: #3bb592;   
 }
 
 #emiResult, #sipResult, #retirementResult {
